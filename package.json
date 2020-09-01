@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment-start-master",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v12.18.3",
+    "npm": "6.14.6"
+  },
+  "description": "A basic HHTP server example",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyxara/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Nyxara",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Nyxara/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/Nyxara/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
